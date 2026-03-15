@@ -1,0 +1,38 @@
+{
+  "name": "wb-repo",
+  "type": "module",
+  "version": "0.0.1",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "dev-bun": "bunx --bun astro dev --verbose",
+    "build": "bunx --bun astro build",
+    "preview": "bunx --bun astro preview",
+    "astro": "astro",
+    "generate-types": "wrangler types"
+  },
+  "dependencies": {
+    "@astrojs/cloudflare": "^13.1.1",
+    "@astrojs/mdx": "^5.0.0",
+    "@astrojs/react": "^5.0.0",
+    "@astrojs/rss": "^4.0.17",
+    "@astrojs/sitemap": "^3.7.1",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "astro": "^6.0.4",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "sharp": "^0.34.3",
+    "wrangler": "^4.73.0"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/mdx": "^2.0.13",
+    "@types/node": "^25.5.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
